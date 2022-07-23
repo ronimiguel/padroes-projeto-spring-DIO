@@ -1,10 +1,10 @@
-package service;
+package com.ronimiguel.padroesprojetospring.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import model.Endereco;
+import com.ronimiguel.padroesprojetospring.model.Endereco;
 
 //Client HTTP para o consumo da API do ViaCEP
 

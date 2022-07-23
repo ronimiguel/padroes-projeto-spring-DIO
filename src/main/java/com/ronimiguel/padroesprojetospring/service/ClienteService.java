@@ -1,6 +1,6 @@
-package service;
+package com.ronimiguel.padroesprojetospring.service;
 
-import model.Cliente;
+import com.ronimiguel.padroesprojetospring.model.Cliente;
 
 	
 public interface ClienteService {

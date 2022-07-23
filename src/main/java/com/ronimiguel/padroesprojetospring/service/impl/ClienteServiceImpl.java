@@ -1,16 +1,16 @@
-package service.impl;
+package com.ronimiguel.padroesprojetospring.service.impl;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Cliente;
-import model.ClienteRepository;
-import model.Endereco;
-import model.EnderecoRepository;
-import service.ClienteService;
-import service.ViaCepService;
+import com.ronimiguel.padroesprojetospring.model.Cliente;
+import com.ronimiguel.padroesprojetospring.model.ClienteRepository;
+import com.ronimiguel.padroesprojetospring.model.Endereco;
+import com.ronimiguel.padroesprojetospring.model.EnderecoRepository;
+import com.ronimiguel.padroesprojetospring.service.ClienteService;
+import com.ronimiguel.padroesprojetospring.service.ViaCepService;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
